@@ -76,7 +76,7 @@ header p{
     background-color: #7c9982;
     width: 95%;
     margin: 0 auto;
-    height: 600px;
+    height: 800px;
     margin-top: 20px;
     border-radius: 15px;
     box-shadow: 11px 10px 50px 0px rgba(0,0,0,0.69);
@@ -92,12 +92,9 @@ header p{
 .carta{
     background-color: brown;
     height: 170px;
-    width: 170px;
+    width: 300px;
     margin: 10px;
     border-radius: 15px;
-    box-shadow: 11px 10px 50px 0px rgba(0,0,0,0.69);
-    -webkit-box-shadow: 11px 10px 50px 0px rgba(0,0,0,0.69);
-    -moz-box-shadow: 11px 10px 50px 0px rgba(0,0,0,0.69);
 }
 
 
@@ -113,7 +110,7 @@ header p{
 }
 
 
-.contenedor_seccion_1{
+.footer_pagina{
     background-color: #7c9982;
     height: 80px;
     width: 95%;
@@ -124,5 +121,22 @@ header p{
     box-shadow: 11px 10px 50px 0px rgba(0,0,0,0.69);
     -webkit-box-shadow: 11px 10px 50px 0px rgba(0,0,0,0.69);
     -moz-box-shadow: 11px 10px 50px 0px rgba(0,0,0,0.69);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
+.contenedor_redes img{
+    height: 27px;
+    width: 27px;
+    margin-right: 10px;
+}
+
+.footer_pagina p{
+    font-weight: bold;
+    font-size: 13px;
+    margin-right: 45px;
+    margin-top: 60px;
+
+}
