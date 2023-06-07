@@ -14,14 +14,94 @@
 <body>
 
     <header>
-        <p>FunWeed!</p>
-        <nav class="navegador">
-            <ul>
-                <li><a href=""><img src="img/hogar.png" alt=""></a></li>
-                <li><a href=""><img src="img/e-commerce.png" alt=""></a></li>
-                <li><a href=""><img src="img/usuario.png" alt=""></a></li>
-                <li><a href=""><img src="img/ajuste.png" alt=""></a></li>
-            </ul>
+        <nav class="nav">
+
+            <div class="nav__container">
+    
+                <h1 class="nav__title">#menu</h1>
+    
+                <a href="#menu" class="nav__menu">
+                    <img src="img/menu.svg" class="nav__icon">
+                </a>
+    
+                <a href="#" class="nav__menu nav__menu--second">
+                    <img src="img/close.svg" class="nav__icon ">
+                </a>
+    
+                <ul class="dropdown" id="menu">
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="img/house.svg" class="dropdown__icon">
+                            <span class="dropdown__span">Inicio</span>
+                        </a>
+                    </li>
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="img/projects.svg" class="dropdown__icon">
+                            <span class="dropdown__span">Projects</span>
+                            <img src="img/down.svg" class="dropdown__arrow">
+    
+                            <input type="checkbox" class="dropdown__check">
+                        </a>
+    
+                        <div class="dropdown__content">
+    
+                            <ul class="dropdown__sub">
+    
+                                <li class="dropdown__li">
+                                    <a href="#" class="dropdown__anchor">Project 1</a>
+                                </li>
+                                <li class="dropdown__li">
+                                    <a href="#" class="dropdown__anchor">Project 2</a>
+                                </li>
+                                <li class="dropdown__li">
+                                    <a href="#" class="dropdown__anchor">Project 3</a>
+                                </li>
+    
+                            </ul>
+    
+                        </div>
+                    </li>
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="img/email.svg" class="dropdown__icon">
+                            <span class="dropdown__span">Contacto</span>
+                            <img src="img/down.svg" class="dropdown__arrow">
+    
+                            <input type="checkbox" class="dropdown__check">
+                        </a>
+    
+                        <div class="dropdown__content">
+    
+                            <ul class="dropdown__sub">
+    
+                                <li class="dropdown__li">
+                                    <a href="#" class="dropdown__anchor">Contact 1</a>
+                                </li>
+                                <li class="dropdown__li">
+                                    <a href="#" class="dropdown__anchor">Contact 2</a>
+                                </li>
+                              
+    
+                            </ul>
+    
+                        </div>
+                    </li>
+    
+                    <li class="dropdown__list">
+                        <a href="#" class="dropdown__link">
+                            <img src="img/" class="dropdown__icon">
+                            <span class="dropdown__span">Ayuda</span>
+                        </a>
+                    </li>
+    
+                </ul>
+    
+            </div>
+    
         </nav>
     </header>
 
