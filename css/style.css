@@ -171,7 +171,7 @@ body{
 /*---------------CONTENEDOR SECCION------------------*/
 
 .contenedor_seccion{
-    background-color: #ffffff;
+    background-color: #665050;
     width: 95%;
     margin: 0 auto;
     height: 800px;
@@ -183,25 +183,9 @@ body{
 
 }
 
-.carta{
-    background-color: brown;
-    height: 180px;
-    width: 300px;
-    margin: 10px;
-    border-radius: 15px;
-}
 
 
-.contenedor_titulo_carta{
-    background-color: #e7caa9;
-    border-radius: 15px 15px 0px 0px;
-    height: 40px;
-}
 
-.contenedor_titulo_carta h2{
-    text-align: center;
-    padding: 6px;
-}
 
 
 .footer_pagina{
